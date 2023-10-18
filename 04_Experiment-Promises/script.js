@@ -11,8 +11,6 @@ const fakeCallToAnAPIPromises = (url) => {
     });
 };
 
-//cccccccccccccccccccccccc
-
 fakeCallToAnAPIPromises("api/movies")
     .then((data) => {
         console.log("SUCCESS (1)");
